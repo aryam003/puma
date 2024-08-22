@@ -1,6 +1,9 @@
-
+* {
+    box-sizing: border-box;
+  }
 .sub1 img{
 width: 100%;
+border-bottom: 1px solid rgb(197, 197, 197);
 }
 .main1{
 /* position: relative; */
@@ -42,11 +45,12 @@ font-weight: bold;
 
 
 .sub1 .sub1a{
-top: 35%;
-right: 60PX;
+top: 12%;
+right: 10PX;
 text-align: center;
 position: absolute;
 width: 600px;
+color: black;
 }
 .sub2{
 /* background-color: rgb(124, 67, 67); */
@@ -126,8 +130,8 @@ border: 2px solid orange;
 }
 .sub4{
     position: absolute;
-    top: 1960px;
-    background-color: rgb(11, 113, 113);
+    top: 2100px;
+    background-color: rgb(117, 81, 119);
     color: white;
     width: 100%;
     height: 600px;
@@ -139,7 +143,7 @@ border: 2px solid orange;
     left: 30px;
 }
 .sub4b img{
-    top: 2220px;
+    top: 2360px;
     position: absolute;
     left: 30px;
     width: 650px;
@@ -151,16 +155,16 @@ border: 2px solid orange;
     left: 600px;
     width: 850px;
     height: 880px;
-    top: 1880px;
+    top: 1980px;
     
 }
 .sub5 img{
     position: absolute;
-    top: 2790px;
+    top: 2990px;
     width: 100%;
 }
 .sub5a{
-        top: 2790px;
+        top: 2990px;
         /* left: 10px; */
         text-align: center;
         position: absolute;
@@ -171,7 +175,7 @@ border: 2px solid orange;
 }
 .sub6{
     position: absolute;
-    top: 3500px;
+    top: 3700px;
     /* left: 1000px; */
     /* text-align: center; */
     background-color: rgb(154, 153, 153);
@@ -195,7 +199,7 @@ border: 2px solid orange;
     align-items: center;
     overflow: hidden;
     position: relative;
-    top: 3370px;
+    top: 3530px;
 }
 .scrollable-content{
     display: flex;
@@ -219,7 +223,7 @@ border: 2px solid orange;
 }
 .sub7 img{
     position: absolute;
-    top: 4620px;
+    top: 4800px;
     width: 100%;
 }
 .sub7a{
@@ -234,7 +238,7 @@ border: 2px solid orange;
 .img2 img {
     position: absolute;
     /* float: right; */
-    top: 5220px;
+    top: 5500px;
     padding: 10px;
     width: 730px;
     height: 900px;
@@ -247,19 +251,19 @@ border: 2px solid orange;
 }
 .img2a .img2a1{
     position: relative;
-    top: 4800px;
+    top: 5130px;
     /* left: 10px; */
     padding: 10px;
 }
 .img2b .img2a1{
     left: 40px;
-    top: 6110px;
+    top: 6390px;
     position: relative;
 }
 
 .sub8{
     position: absolute;
-    top: 6350px;
+    top: 6750px;
     background-color: rgb(140, 81, 97);
     color: white;
     width: 100%;
@@ -272,7 +276,7 @@ border: 2px solid orange;
     left: 30px;
 }
 .sub8b img{
-    top: 6570px;
+    top: 6970px;
     position: absolute;
     left: 30px;
     width: 650px;
@@ -282,37 +286,37 @@ border: 2px solid orange;
 }
 .sub8c img{
     position: absolute;
-    left: 600px;
-    width: 850px;
-    height: 850px;
-    top: 6250px;
+    left: 500px;
+    width:950px;
+    height: 950px;
+    top: 6600px;
     
 }
 .scroll{
     position: relative;
-    top: 2400px;
+    top: 2900px;
 }
 .scroll h1{
     position: relative;
-    top: 3340px;
+    top: 3440px;
     font-size: 50px;
     padding-left: 60px;
 }
 .sub9{
     position: relative;
-    top: 3460px;
+    top: 3560px;
     /* background-color: antiquewhite; */
     height: 1000px;
 }
 .sub9a h2{
     position: absolute;
-    top: 700px;
+    top: 800px;
     left: 110px;
 }
 .sub9 img{
     position: absolute;
     width: 33%;
-    height: 700px;
+    height: 800px;
     /* padding: 10px; */
     padding-left: 16px;
 }
@@ -329,15 +333,15 @@ border: 2px solid orange;
 }
 .sub9b h2,.sub9c h2,.sub9b h4,.sub9b button,.sub9a h4,.sub9c h4,.sub9a button,.sub9c button{
     position: absolute;
-    top: 700px;
+    top: 800px;
     left: 40%;
 }
 .sub9b h4,.sub9c h4,.sub9a h4{
-    top: 740px;
+    top: 840px;
     /* text-align: center; */
 }
 .sub9b button,.sub9c button,.sub9a button{
-    top: 780px;
+    top: 880px;
 }
 .sub9c h2,.sub9c h4,.sub9c button{
     left: 75%;
@@ -350,11 +354,12 @@ border: 2px solid orange;
 .h1 h1{
     text-align: center;
     font-size: 50px;
+    top: 3550px;
 }
 .sub10 {
     display: flex;
     gap: 20px;
-    top: 3400px;
+    top: 3600px;
     position: relative;
 }
 .image-text {
@@ -380,11 +385,31 @@ border: 2px solid orange;
 }
 .scroll1{
     position: relative;
-    top: 50px;
+    top: 250px;
 }
 .scroll1 h1{
     position: relative;
-    top: 3380px;
+    top: 3500px;
     font-size: 30px;
     padding-left: 60px;
 }
+.scrollable-content{
+    top: 10px;
+    position: relative;
+}
+input[type=text] {
+    width: 200px;
+    /* box-sizing: border-box; */
+    border: 1px solid #ccc;
+    /* border-radius: 4px; */
+    font-size: 16px;
+    background-color: rgb(4, 4, 4);
+    /* background-image: url('image/th\ \(1\).jpg'); */
+    /* background-position: 10px 10px;  */
+    background-repeat: no-repeat;
+    padding: 1px;
+}
+
+@media only screen and (min-width: 600px) {
+   
+  }
