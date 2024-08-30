@@ -23,7 +23,7 @@ padding: 15px;
     width: 100%;
     height: 80px;
     background-color: black;
-    padding-left: 10%;
+    padding-left: 5%;
     top: 0px;
 }
 .navbar-nav img{
@@ -250,7 +250,7 @@ border: 2px solid orange;
 }
 .img2a .img2a1{
     position: relative;
-    top: 5130px;
+    top: 1900px;
     /* left: 10px; */
     padding: 10px;
 }
@@ -293,7 +293,7 @@ border: 2px solid orange;
 }
 .scroll{
     position: relative;
-    top: 2900px;
+    top: 2700px;
 }
 .scroll h1{
     position: relative;
@@ -303,7 +303,7 @@ border: 2px solid orange;
 }
 .sub9{
     position: relative;
-    top: 3560px;
+    top: 500px;
     /* background-color: antiquewhite; */
     height: 1000px;
 }
@@ -350,15 +350,16 @@ border: 2px solid orange;
     left: 110px;
     text-align: center;
 }
-.h1 h1{
+/* .h1 h1{
+    position: ;
     text-align: center;
     font-size: 50px;
-    top: 3550px;
-}
+    top: 550px;
+} */
 .sub10 {
     display: flex;
     gap: 20px;
-    top: 3600px;
+    top: 600px;
     position: relative;
 }
 .image-text {
@@ -384,11 +385,11 @@ border: 2px solid orange;
 }
 .scroll1{
     position: relative;
-    top: 250px;
+    top: 500px;
 }
 .scroll1 h1{
     position: relative;
-    top: 3500px;
+    top: 200px;
     font-size: 30px;
     padding-left: 60px;
 }
